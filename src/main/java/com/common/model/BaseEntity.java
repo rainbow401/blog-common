@@ -1,11 +1,14 @@
 package com.common.model;
 
 import com.baomidou.mybatisplus.annotation.TableLogic;
-import lombok.Data;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class BaseEntity {
 
     private Long createBy;
