@@ -1,8 +1,5 @@
 package com.common.resopnse;
 
-import lombok.Data;
-
-@Data
 public class ResponseResult<T> {
 
     private Integer code;
@@ -55,5 +52,47 @@ public class ResponseResult<T> {
         responseResult.data = null;
 
         return responseResult;
+    }
+
+    public Integer getCode() {
+        return code;
+    }
+
+    public void setCode(Integer code) {
+        this.code = code;
+    }
+
+    public Boolean getSuccess() {
+        return success;
+    }
+
+    public void setSuccess(Boolean success) {
+        this.success = success;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    @Override
+    public String toString() {
+        return "ResponseResult{" +
+                "code=" + code +
+                ", success=" + success +
+                ", message='" + message + '\'' +
+                ", data=" + data +
+                '}';
     }
 }

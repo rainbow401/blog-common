@@ -1,7 +1,10 @@
-package com.common.model;
+package com.common.entity;
 
 import com.baomidou.mybatisplus.annotation.TableLogic;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
