@@ -1,4 +1,4 @@
-package com.common.resopnse;
+package com.blog.common.resopnse;
 
 public class ResponseResult<T> {
 

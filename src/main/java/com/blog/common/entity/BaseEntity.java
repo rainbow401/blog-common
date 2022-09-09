@@ -1,4 +1,4 @@
-package com.common.entity;
+package com.blog.common.entity;
 
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.AllArgsConstructor;

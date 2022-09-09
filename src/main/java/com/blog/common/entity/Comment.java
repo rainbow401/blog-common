@@ -1,4 +1,4 @@
-package com.common.entity;
+package com.blog.common.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -13,7 +13,7 @@ import java.io.Serializable;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class Message extends BaseEntity implements Serializable {
+public class Comment extends BaseEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

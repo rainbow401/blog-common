@@ -1,4 +1,4 @@
-package com.common.entity;
+package com.blog.common.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
