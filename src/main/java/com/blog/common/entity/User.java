@@ -5,7 +5,7 @@ import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class User extends BaseEntity {
+public class User extends BaseAutoIdEntity {
 
     /**
      * 用戶名
